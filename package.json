@@ -1,0 +1,31 @@
+{
+  "name": "com.cortexpowered.apps.web-page",
+  "version": "1.0.1",
+  "license": "BSD-3-Clause",
+  "description": "This application displays a fullscreen web page.",
+  "main": "src/index.js",
+  "scripts": {
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "coffee-script": "^1.10.0",
+    "coffeeify": "^1.1.0",
+    "coffeelint": "^1.11.1",
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-less": "^3.0.3",
+    "gulp-util": "^3.0.1",
+    "gulp-zip": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortexsystems/cortex-web-page.git"
+  },
+  "author": "Hamza Kaya <hamza@cortexpowered.com> (http://www.cortexpowered.com/)",
+  "bugs": {
+    "url": "https://github.com/cortexsystems/cortex-web-page/issues"
+  },
+  "homepage": "https://github.com/cortexsystems/cortex-web-page#readme"
+}

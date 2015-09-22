@@ -1,0 +1,32 @@
+{
+    "name": "com.cortexpowered.apps.web-page",
+    "version": "1.0.0",
+    "displayName": "Web Page",
+    "description": "This application displays a fullscreen web page.",
+    "author": "Cortex",
+    "email": "support@cortexpowered.com",
+    "homepage": "http://www.cortexpowered.com",
+    "type": "application",
+    "assets": {
+        "icon128": "",
+        "icon256": "./app_assets/icon256.png",
+        "icon512": "",
+        "screenshot1": "./app_assets/screenshot1.png",
+        "screenshot2": "",
+        "screenshot3": "",
+        "screenshot4": "",
+        "screenshot5": ""
+    },
+    "parameters": [
+        {
+            "name": "webpage.url",
+            "default": "http://www.cortexpowered.com",
+            "description": "The url of the page to be displayed."
+        },
+        {
+            "name": "webpage.duration",
+            "default": "7500",
+            "description": "The view duration in milliseconds."
+        }
+    ]
+}
