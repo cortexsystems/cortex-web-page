@@ -3,8 +3,8 @@ init = ->
     window.Cortex.app.getConfig()
       .then (config) ->
         container = document.getElementById('container')
-        url = config['webpage.url']
-        duration = config['webpage.duration'] || 7500
+        url = config['cortex.webpage.url']
+        duration = config['cortex.webpage.duration'] || 7500
 
         if not not url
           window.Cortex.scheduler.onPrepare (offer) ->
