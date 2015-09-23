@@ -19,12 +19,12 @@
     },
     "parameters": [
         {
-            "name": "webpage.url",
+            "name": "cortex.webpage.url",
             "default": "http://www.cortexpowered.com",
             "description": "The url of the page to be displayed."
         },
         {
-            "name": "webpage.duration",
+            "name": "cortex.webpage.duration",
             "default": "7500",
             "description": "The view duration in milliseconds."
         }
